@@ -1,4 +1,4 @@
-const sectionScheme = mongoose.Schema({
+const sectionSchema = mongoose.Schema({
     title: { type: String, required: true},
     subTitle: { type: String, required: false},
     created: { type: Date, default: () => new Date()}
